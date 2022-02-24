@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keshen | Home</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/recipe.css">
+
+    <link rel="shortcut icon" href="assets/img/icon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <center>
+        <nav class="navbar sticky-top navbar-expand-lg bg-transparent w-100 d-flex justify-content-between" id="navTag">
+            <div class="container-fluid" id="fluidContain">
+                <a class="navbar-brand" href="index.html" id="keshenLink"><img src="assets/img/logo.png" class="my-logo"
+                        alt="#" />ክሽን</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-links"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon d-flex justify-content-center"><i class="fa fa-bars"
+                            aria-hidden="true"></i></span>
+                </button>
+                <div class="collapse navbar-collapse text-capitalize ml-5" id="nav-links">
+                    <ul class="navbar-nav w-100 d-flex justify-content-end mr-3">
+
+                        <li class="nav-item">
+                            <a class="nav-link log " href="aboutUs.html" id="links">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link log " href="login.html" id="links">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link log " href="register.html" id="links">Register</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </center>
+
+    <header id="home">
+        <div class="content">
+            <div class="d-flex align-items-center flex-column justify-content-center">
+                <h1>Welcome</h1>
+                <p>
+                    Welcome to Keshen, your number one source for recipes.
+                </p>
+                <a href="#recipes" class="btn-xl nav-link">
+                    <i class="far fa-arrow-alt-circle-down" style="font-size: 30px;"></i>
+                </a>
+
+
+
+            </div>
+        </div>
+        <div id="slideToNext" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/img/c1.jpg" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/c2.jpg" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/c3.jpg" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/ca.jpg" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/c4.jpg" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/c5.jpg" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/c6.jpg" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/c7.jpg" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/c8.jpg" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/c9.jpg" class="d-block w-100">
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <div class="container-fluid margin-vertical-5 col-md-12 text-center d-flex justify-content-around ">
+        <div class="d-flex justify-content-around responsiveOnMobile">
+
+            <div class="card first-card-text" style="width: 42rem;">
+
+                <div class="card-body">
+                    <h3 class="card-title"> Find The Food You Love & Discover more </h3>
+
+                    <p class="card-text mt-4 text-justify">Do you have an exquisite taste for food or do you love
+                        cooking? We promise to make your cooking sessions fabulous
+
+                        We also want to grow a community of users dedicated to sharing their home-made food recipe.
+
+                    </p>
+                    <p class="card-text mt-4 paragraph"> Want to help us grow the community?
+                        <a href="register.html">Sign up</a> for more.
+                        <br><br><br>
+                        Already have an account? <a href="login.html" class="">Sign In</a>.
+                    </p>
+
+
+                </div>
+
+            </div>
+
+            <img src="assets/img/cardImageOne.jpg" class="card-ui-img my-auto img-fluid mx-auto my-2"
+                alt="Responsive image">
+        </div>
+
+    </div>
+
+
+    <!-- Parallax -->
+
+    <div class="parallax margin-bottom-5"></div>
+
+    <!-- ends here -->
+
+
+    <!-- Recipe -->
+    <div class="container-fluid cont" id="recipes">
+
+        <div class="container d-flex justify-content-center">
+            <div class="col-12">
+                <div class="input-group my-5 mx-auto p-4 ">
+                    <input type="text" class="form-control pl-4" id="search" placeholder="Search a food recipe..">
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <div class="row">
+                <div class="text-center w-100 py-5">
+                    <div class="spinner-border" role="status"></div>
+                </div>
+            </div>
+
+        </div>
+        <nav aria-label="Page" style="display: none;" class="pagination">
+            <ul class="pagination justify-content-center">
+                <li class="page-item">
+                    <a class="page-link prev" href="#recipes">Previous</a>
+                </li>
+
+                <li class="page-item">
+                    <a class="page-link next" href="#recipes">Next</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!--End of recipe  -->
+
+
+
+    <!-- footer -->
+    <footer>
+        <div class="footer mt-3 p-4">
+            <div class="row">
+                <a href="#"><i class="fa fa-facebook px-2"></i></a>
+                <a href="#"><i class="fa fa-instagram px-2"></i></a>
+                <a href="#"><i class="fa fa-youtube px-2"></i></a>
+                <a href="#"><i class="fa fa-twitter px-2"></i></a>
+            </div>
+
+            <div class="row sticky-bottom mt-3">
+                Team Clutch - Copyright © 2021 - All Rights Reserved
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- footer ends here -->
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/24cd095fb2.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/dexie@latest/dist/dexie.js"></script>
+    <script src="assets/js/dexie.js"></script>
+
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/search.js"></script>
+    <script src="assets/js/pagination.js"></script>
+    <script src="assets/js/viewRecipe.js"></script>
+    <script src="assets/js/dexieApp.js"></script>
+
+
+    <!-- IDB Wrapper -->
+    <script>
+        function saveOnSession(foodName) {
+            sessionStorage.setItem('foodName', foodName)
+            location.href = 'viewRecipe.html'
+        }
+    </script>
+
+
+</body>
+
+</html>

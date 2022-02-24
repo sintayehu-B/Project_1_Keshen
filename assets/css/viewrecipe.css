@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+body{
+  /* background-color: orange; */
+  background-position: inherit;
+  width: 100%;
+  object-fit: cover;
+  background-attachment: fixed;
+  line-height: 2 !important;
+  
+}
+
+
+
+.scrolling-active{
+  color: tomato !important ;
+  background-color:  #f8f9fa !important;
+  box-shadow: 0 2px 25px rgba(5, 5, 5, 0.3);
+  transition: background-color 0.4 ease-in-out;
+  
+
+}
+#navTag {
+  position: fixed;
+  width: 100%;
+  color: tomato  !important ; 
+  background-color: #fff !important;
+  z-index: 1000;
+}
+
+#keshenLink{
+  font-size: 28px;
+  color: #222 ;
+  
+}
+
+#nav-links {
+  justify-content: left ;
+  align-items: left;
+}
+#fluidContain{
+  font-family: 'Quicksand', 'Roboto';
+  font-size: large;
+  padding: 3px  0px 3px 0px ;
+  
+}
+.unordLi{
+  padding: 0px 12px 0px 12px ;
+}
+
+.log {
+  color:inherit !important;
+}
+
+/* .navbar{
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: transparent ;
+  color: white ;
+  z-index: 1000;
+} */
+
+.navbar a {
+  color: white ;
+}
+
+.navbar .navbar-toggler {
+  background-color: white;
+}
+
+/* .navbar .log {
+  color: black ;
+} */
+
+.navbar ul li.search {
+  position: relative;
+  left: 70vh;
+}
+
+.navbar ul form {
+  position: absolute;
+  width: 250px;
+  padding: 5px;
+  background-color: white;
+  right: -30px;
+  display: none;
+}
+.menuLog{
+  color: black ;
+}
+.navbar ul form input {
+  padding: 5px 10px 5px 5px;
+  background-color: #ddd;
+  width: 100%;
+  border: 1px solid #737272;
+}
+
+.my-logo {
+  height:50px ;
+  padding: 0px 10px 0px 80px;
+
+}
+
+.card_container {
+  overflow: hidden;
+  box-shadow: 0px 2px 20px gray;
+  /* box-shadow: -30px 30px 20px rgba(0,0,0,0.3); 
+  box-shadow: 0px 15px 25px; */
+  border-radius: 0.2rem;
+  margin-top: 70px;
+  /* opacity: 0.76; */
+}
+/* .cont .card_container::before{
+  content: '';
+  position: absolute;
+  bottom: -50px;
+  left: 5%;
+  width: 90px;
+  height: 20px;
+  background: rgba(0, 0,0, 0.3);
+  border-radius: 50%;
+  z-index: -1;
+  filter: blur(10px);
+} */
+
+
+.card_body_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: whitesmoke;
+  /* opacity: 0.99; */
+  
+  color: black;
+  padding: 30px 20px;
+}
+
+.card_body_container hr {
+  width: 80%;
+  background-color: gray;
+}
+
+.card_title_container{
+  margin-top: 1rem;
+}
+
+/* .card-body-wrapper ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.card-body-wrapper ul li {
+  list-style: none;
+  padding-right: 100px;
+}
+
+.card-body-wrapper ul li i {
+  color: gray;
+  margin-right: 4px;
+  font-size: 15px;
+}
+
+.card-body-wrapper ul li span {
+  color: rgb(245, 73, 73);
+  font-weight: 450;
+  font-size: 20px;
+} */
+
+#imgSrc {
+  width: 70%;
+}
+.wrapper{
+  display: grid;
+  width: 40%;
+  height: 150px;
+  grid-template-columns: 1.5fr 1.5fr 2fr;
+  background: rgb(245, 96, 70);
+  box-shadow: 12px 12px 24px  rgb(244, 46, 70), -12px -12px 24px  rgb(244, 46, 70);
+  border-radius: 5px;
+}
+.upVote,.downVote{
+  display: grid;
+  place-items: center;
+}
+.icon{
+  margin-top: 25px;
+  font-size: 50px;
+  cursor: pointer;
+
+  text-shadow: 5px 8px 15px rgb(247, 192, 192);
+  transition: .5s;
+  
+} 
+.icon:hover{
+  color: #ba0015;
+  transform: scale(1.2);
+} 
+input{
+  margin-top: - 100px;
+  margin-left: 15px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: center;
+  background: none;
+  font-size: 30px;
+  font-weight: 800;
+  pointer-events: none;
+  color: #0086b3;
+  text-shadow: 2px 2px 3px #2a93b6;
+}
+
+
+/* .thumbs-up{
+  padding: 10px 15px;
+  background: #0080ff;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  color: tomato;
+  border-radius: 5px;
+  cursor: pointer;
+} */
+.cardForm{
+  background-color: black !important;
+}
+
+/*For button on admin page*/
+.btncol{
+  background-color: #4bbcf0 !important;
+}
+.btndis{
+  background-color: #b93a49;
+}
+.home-btn{
+    background: #0080ff;
+    transform: translateY(-150%);
+    color: white;
+    box-shadow: 0px 15px 25px;
+}
+
+@media (min-width: 575px) and (max-width: 768) {
+  .navbar ul li.search {
+    position: relative;
+    left: 0vh;
+    color:#222 !important;
+  }
+ 
+  .card-img {
+    height: 12rem;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+@media (max-width: 992px) {
+
+  /* navbar */
+
+  .navbar ul li.search {
+    position: relative;
+    left: 0vh;
+    color:#222 !important;
+  }
+}

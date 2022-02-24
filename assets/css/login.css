@@ -1,0 +1,524 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,700");
+
+* {
+  font-family: "Quicksand", "Roboto";
+}
+
+.fa,
+.far,
+.fas {
+  font-family: "Font Awesome 5 Free";
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding-top: 0;
+  /* background-image: url(../img/tomato.png) ; */
+}
+
+li {
+  list-style-type: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.small-container {
+  width: 96%;
+  margin: 0 auto;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+}
+
+h2 span {
+  text-decoration: underline #ffe25b;
+}
+
+h2 {
+  margin-bottom: 30px;
+}
+
+/* navbar */
+
+#navTag {
+  box-shadow: 0 2px 25px rgba(5, 5, 5, 0.3);
+}
+
+.navbar a {
+  color: tomato !important;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.navbar .navbar-toggler {
+  background-color: inherit;
+}
+
+.log {
+  color: white;
+  transition: all 0.2s linear;
+}
+
+.navbar ul form {
+  position: absolute;
+  width: 250px;
+  padding: 5px;
+  background-color: black !important;
+  right: -30px;
+  display: none;
+}
+
+.menuLog {
+  color: black;
+}
+
+.navbar ul form input {
+  padding: 5px 10px 5px 5px;
+  background-color: black;
+  width: 100%;
+  border: 1px solid #737272;
+}
+
+.my-logo {
+  height: 50px;
+  padding: 0px 10px 0px 80px;
+}
+
+/* card */
+
+/* custom css classes for margin */
+
+.margin-vertical-5 {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.margin-vertical-10 {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.margin-top-5 {
+  margin-top: 5%;
+}
+
+.margin-bottom-5 {
+  margin-bottom: 5%;
+}
+
+.margin-top-10 {
+  margin-top: 10%;
+}
+
+.margin-bottom-10 {
+  margin-bottom: 10%;
+}
+
+/* card UI */
+
+.card-ui {
+  /* background-color: #4292dc; */
+  color: saddlebrown;
+
+  width: 20rem;
+  height: 25rem;
+  border-collapse: separate;
+  font-family: "Montserrat", serif, sans-serif;
+}
+
+.card-ui-img {
+  margin-left: 20px;
+  width: 50%;
+  display: flex;
+  justify-self: inherit;
+  border-radius: 0px 9px 9px 0px;
+}
+
+.card-ui-imgs {
+  width: 50%;
+  display: flex;
+  justify-self: inherit;
+  border-radius: 9px 0px 0px 9px;
+}
+
+.card-body {
+  padding: 0;
+  margin: 0;
+  width: 50rem;
+  height: 32rem;
+}
+
+.first-card-text {
+  border-radius: 9px 9px 9px 9px;
+}
+
+/* Card */
+
+/* Login/Register */
+
+input,
+select,
+textarea {
+  outline: none;
+  appearance: unset;
+  -moz-appearance: unset;
+  -webkit-appearance: unset;
+  -o-appearance: unset;
+  -ms-appearance: unset;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -o-appearance: none;
+  -ms-appearance: none;
+  margin: 0;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  -o-box-shadow: none;
+  -ms-box-shadow: none;
+}
+
+input[type="checkbox"] {
+  appearance: checkbox;
+  -moz-appearance: checkbox;
+  -webkit-appearance: checkbox;
+  -o-appearance: checkbox;
+  -ms-appearance: checkbox;
+}
+
+input[type="radio"] {
+  appearance: radio;
+  -moz-appearance: radio;
+  -webkit-appearance: radio;
+  -o-appearance: radio;
+  -ms-appearance: radio;
+}
+
+.signup {
+  margin-bottom: 150px;
+}
+
+.signup-content {
+  padding: 75px 0;
+}
+
+.signup-form,
+.signup-image,
+.signin-form,
+.signin-image {
+  width: 50%;
+  overflow: hidden;
+}
+
+.signup-image {
+  margin: 0 55px;
+}
+
+.form-title {
+  margin-bottom: 33px;
+}
+
+.signup-image {
+  margin-top: 45px;
+}
+
+figure {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.form-submit {
+  display: inline-block;
+  background: #6dabe4;
+  color: #fff;
+  border-bottom: none;
+  width: auto;
+  padding: 15px 39px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.form-submit:hover {
+  background: #4292dc;
+}
+
+#signin {
+  margin-top: 16px;
+}
+
+.signup-image-link {
+  font-size: 14px;
+  color: #222;
+  display: block;
+  text-align: center;
+}
+
+.term-service {
+  font-size: 13px;
+  color: #222;
+}
+
+.signup-form {
+  margin-left: 75px;
+  margin-right: 75px;
+  padding-left: 34px;
+}
+
+.register-form {
+  width: 100%;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 25px;
+  overflow: hidden;
+}
+
+.form-group:last-child {
+  margin-bottom: 0px;
+}
+
+input {
+  width: 100%;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #999;
+  padding: 6px 30px;
+  font-family: Poppins;
+  box-sizing: border-box;
+}
+
+input::-webkit-input-placeholder {
+  color: #999;
+}
+
+input::-moz-placeholder {
+  color: #999;
+}
+
+input:-ms-input-placeholder {
+  color: #999;
+}
+
+input:-moz-placeholder {
+  color: #999;
+}
+
+input:focus {
+  border-bottom: 1px solid #222;
+}
+
+input:focus::-webkit-input-placeholder {
+  color: #222;
+}
+
+input:focus::-moz-placeholder {
+  color: #222;
+}
+
+input:focus:-ms-input-placeholder {
+  color: #222;
+}
+
+input:focus:-moz-placeholder {
+  color: #222;
+}
+
+/* View Recipe */
+
+@media (min-width: 575px) and (max-width: 768) {
+  .card-img {
+    height: 12rem;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+/* media queries */
+
+@media (max-width: 992px) {
+
+  /* navbar */
+  body {
+    overflow-y: none;
+    overflow-x: none;
+  }
+
+  .navbar ul li.search {
+    position: relative;
+    left: 0vh;
+    color: #222;
+  }
+
+  .navbar ul {
+    background-color: white;
+    padding: 10px 20px;
+  }
+
+  .navbar ul li a {
+    color: black;
+  }
+
+  .navbar ul li a:hover {
+    color: #ffe25b;
+  }
+
+  .navbar ul form {
+    position: static;
+    width: 100%;
+  }
+
+  body>div>div>div>div>img {
+    display: none !important;
+  }
+
+  .card-body {
+    width: 26rem;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: space-around !important;
+  }
+
+  ul>li {
+    /* width: max-content !important; */
+  }
+
+  ul {
+    margin-left: -15px !important;
+  }
+
+  .my-logo {
+    padding: 0;
+  }
+
+  .footer {
+    position: unset;
+  }
+}
+
+/* footer start*/
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: white;
+  font-family: "Play", sans-serif;
+  text-align: center !important;
+  box-shadow: 0 2px 25px rgba(5, 5, 5, 0.3);
+}
+
+.color-tomato {
+  color: tomato !important;
+}
+
+.footer .row {
+  width: 100%;
+  padding: 0.4% 0%;
+  /* color: white; */
+  font-size: 0.8em;
+  display: block;
+}
+
+.footer .row a {
+  text-decoration: none;
+  color: tomato;
+
+  transition: 0.5s;
+}
+
+.footer .row a:hover {
+  color: rgb(34, 29, 29);
+}
+
+.footer .row ul {
+  width: 100%;
+  justify-content: center;
+}
+
+.footer .row ul li {
+  display: inline-block !important;
+  margin: 0px 30px !important;
+}
+
+.footer .row a i {
+  font-size: 2em !important;
+  margin: 0% 1% !important;
+}
+
+@media (max-width: 720px) {
+  .footer {
+    text-align: left;
+    padding: 5%;
+    position: unset;
+  }
+
+  .footer .row ul li {
+    display: block;
+    margin: 10px 0px;
+    text-align: left;
+  }
+
+  .body>div.container-fluid.col-md-12.text-center>div>div>div>img {
+    display: none !important;
+  }
+
+  .footer .row a i {
+    margin: 0% 3%;
+  }
+
+}
+
+/* footer end */
+
+.login-img {
+  background-size: cover;
+
+
+  
+  object-fit: cover;
+
+  
+  margin: 20px;
+  width: 20rem;
+  float: right;
+  height: 30rem;
+  border-radius: 18px;
+  border-collapse: separate;
+  
+  
+  padding-left: 10px;
+  padding-right: 10px;
+  align-items: center;
+}
+
+
+#signInButton,
+#registerButton {
+  background-color: tomato;
+}
